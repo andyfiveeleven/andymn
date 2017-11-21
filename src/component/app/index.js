@@ -5,6 +5,7 @@ import {BrwoserRouter, Route, Link} from 'react-router-dom'
 
 // import stuff from other componenet.
 import DashboardContainer from '../dashboard-container'
+import NavBar from '../navbar/index'
 
 class App extends React.Component{
   componentDidMount(){
@@ -16,7 +17,8 @@ class App extends React.Component{
       <div className='app'>
         <BrowserRouter>
           <div>
-            <Route exact path='/' component-{DashboardContainer} />
+            <Route path='*' component={NavBar}/>
+            <Route exact path='/' component={DashboardContainer} />
           </div>
         </BrowserRouter>
       </div>
