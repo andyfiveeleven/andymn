@@ -1,4 +1,3 @@
-import './_dashboard-container.scss'
 import React from 'react'
 import {connect} from 'react-redux'
 
@@ -14,8 +13,10 @@ class DashboardContainer extends React.Component {
   render(){
     return(
       <div className='dashboard-container'>
-        
+        <h1> fuck you </h1>
       </div>
     )
   }
 }
+
+export default DashboardContainer
