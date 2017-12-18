@@ -5,6 +5,7 @@ import {BrowserRouter, Route} from 'react-router-dom'
 import {Provider} from 'react-redux'
 
 import DashboardContainer from './component/dashboard-container'
+import NavBar from './component/navbar'
 
 class App extends React.Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class App extends React.Component {
           <section>
             <Route exact path='/dashboard' component={() =>
               <DashboardContainer app={this.getApp()} /> } />
+            <Route exact path='/navbar' component={NavBar} />
           </section>
         </BrowserRouter>
       </main>

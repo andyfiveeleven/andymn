@@ -16,11 +16,16 @@ class NavBar extends React.Component{
     return(
       <div className='navbar'>
         <nav>
+          <h1><a href='/'>Andy Martin</a></h1>
           <ul>
-            <li>HI</li>
+            <li><a href='/'>about me</a></li>
+            <li><a href='/'>resume</a></li>
+            <li><a href='/'>projects</a></li>
           </ul>
         </nav>
       </div>
     )
   }
 }
+
+export default NavBar
