@@ -22,6 +22,7 @@ class NavBar extends React.Component{
             <li><a href='/'>resume</a></li>
             <li><a href='/'>projects</a></li>
           </ul>
+          <div className='clearfix'></div>
         </nav>
       </div>
     )
