@@ -2,13 +2,12 @@
   "name": "andymn.com",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "tatomype": "git",
+    "type": "git",
     "url": "git+https://github.com/andyfiveeleven/andymn.git"
   },
   "keywords": [],
@@ -18,4 +17,8 @@
     "url": "https://github.com/andyfiveeleven/andymn/issues"
   },
   "homepage": "https://github.com/andyfiveeleven/andymn#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-request-proxy": "^2.0.0"
+  }
 }
