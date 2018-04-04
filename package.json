@@ -1,0 +1,21 @@
+{
+  "name": "andymn.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "tatomype": "git",
+    "url": "git+https://github.com/andyfiveeleven/andymn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyfiveeleven/andymn/issues"
+  },
+  "homepage": "https://github.com/andyfiveeleven/andymn#readme",
+}
