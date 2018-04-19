@@ -1,0 +1,45 @@
+.hero{
+  height: 75vw;
+  width: 100%;
+  position: relative;
+
+  img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  h2{
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    margin-top: 30vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 10vw;
+  }
+}
+
+.quick-about{
+  height: 150vw;
+  background-color: #edeeef;
+  padding: 12vw 4vw;
+
+  h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 8vw;
+  }
+
+  p{
+    text-align: center;
+    padding: 0vw 2vw;
+    margin-bottom: 4vw;
+  }
+
+  .false-button{
+    margin-left: 22%;
+  }
+}
