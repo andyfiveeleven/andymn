@@ -1,45 +1,112 @@
-.hero{
-  height: 75vw;
+@import "../../vars.scss";
+
+h2{
   width: 100%;
-  position: relative;
-
-  img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-
-  h2{
-    position: absolute;
-    text-align: center;
-    width: 80%;
-    margin-top: 30vw;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 10vw;
-  }
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-bottom: 4vw;
+  font-family: $font-secondary;
+  font-size: 8vw;
 }
 
-.quick-about{
-  height: 150vw;
-  background-color: #edeeef;
-  padding: 12vw 4vw;
+p{
+  text-align: center;
+  padding: 0vw 2vw;
+  margin-bottom: 4vw;
+  font-size: 6vw;
+  padding: 5vw;
+  line-height: 7vw;
+}
+.false-button{
+  margin: 0 auto;
+}
 
-  h2{
+
+.home{
+  font-family: $font-main;
+
+  .hero{
+    height: 75vw;
     width: 100%;
-    text-align: center;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    font-size: 8vw;
+    position: relative;
+
+    img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+
+    h2{
+      position: absolute;
+      text-align: center;
+      width: 80%;
+      margin-top: 30vw;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 10vw;
+    }
   }
 
-  p{
-    text-align: center;
-    padding: 0vw 2vw;
-    margin-bottom: 4vw;
+  .quick-about{
+    background-color: $light-grey;
+    padding: 12vw 4vw;
+
+    h2{
+      width: 100%;
+      text-align: center;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      margin-bottom: 4vw;
+      font-family: $font-secondary;
+      font-size: 8vw;
+    }
+
+    p{
+      text-align: center;
+      padding: 0vw 2vw;
+      margin-bottom: 4vw;
+      font-size: 6vw;
+      padding: 5vw;
+      line-height: 7vw;
+    }
   }
 
-  .false-button{
-    margin-left: 22%;
+  .quick-resume{
+    padding: 12vw 4vw;
+
+    .res-squares{
+      width: 80vw;
+      height: 60vw;
+      margin: 10vw auto;
+
+      h3{
+        font-size: 6vw;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      p{
+        padding: 3vw;
+      }
+    }
+  }
+
+  .quick-portfolio{
+    padding: 12vw 4vw;
+    background-color: $light-grey;
+
+    .portfolio-squares {
+      width: 65vw;
+      height: 65vw;
+      margin: 5vw auto;
+      padding: 5vw;
+      background-color: $black;
+      color: white;
+    }
+  }
+
+  .quick-contact{
+    padding: 12vw 4vw;
   }
 }
