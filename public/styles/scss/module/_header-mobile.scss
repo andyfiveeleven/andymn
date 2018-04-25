@@ -1,15 +1,88 @@
+@import "../../vars.scss";
+
 header{
-  padding: 4vw;
-  height: 40vw;
+  height: 20vw;
   border: 1vw solid black;
 
   h1{
-    float: left;
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
     font-size: 10vw;
   }
 
-  nav{
+  .nav-icon{
+    position: absolute;
+    top: 4vw;
+    right: 3vw;
+    font-size: 10vw;
+  }
+
+  .main-nav{
     float: right;
     font-size: 7vw;
+    margin-top: 5vw;
+    margin-right: 3vw;
+    position: relative;
+    width: 100%;
+  }
+
+  .menu{
+    position: fixed;
+    top: 20vw;
+    left:-100%;
+    z-index: 99;
+    width: 100%;
+    background: $black;
+    height: 100vh;
+    transition: .5s all;
+    z-index: 99;
+  }
+
+  .menu li a {
+    float: left;
+    width: 99.7%;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    padding: 5vw 0;
+  }
+
+  .display-nav {
+    position: fixed;
+    top: 20vw;
+    left:-100%;
+    z-index: 99;
+    width: 100%;
+    background: $black;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: .5s all;
+  }
+
+  .display-nav li a {
+    float: left;
+    width: 99.7%;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    padding: 5vw 0;
+  }
+
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    cursor: pointer;
+  }
+
+  .hidden {
+    overflow: hidden;
+    height: 100vw;
   }
 }

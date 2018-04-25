@@ -1,15 +1,77 @@
 header {
-  padding: 4vw;
-  height: 40vw;
+  height: 20vw;
   border: 1vw solid black;
 }
 header h1 {
-  float: left;
+  position: absolute;
+  top: 4vw;
+  left: 3vw;
   font-size: 10vw;
 }
-header nav {
+header .nav-icon {
+  position: absolute;
+  top: 4vw;
+  right: 3vw;
+  font-size: 10vw;
+}
+header .main-nav {
   float: right;
   font-size: 7vw;
+  margin-top: 5vw;
+  margin-right: 3vw;
+  position: relative;
+  width: 100%;
+}
+header .menu {
+  position: fixed;
+  top: 20vw;
+  left: -100%;
+  z-index: 99;
+  width: 100%;
+  background: #1f1f1f;
+  height: 100vh;
+  transition: 0.5s all;
+  z-index: 99;
+}
+header .menu li a {
+  float: left;
+  width: 99.7%;
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  padding: 5vw 0;
+}
+header .display-nav {
+  position: fixed;
+  top: 20vw;
+  left: -100%;
+  z-index: 99;
+  width: 100%;
+  background: #1f1f1f;
+  height: 100vh;
+  transform: translateX(100%);
+  transition: 0.5s all;
+}
+header .display-nav li a {
+  float: left;
+  width: 99.7%;
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  padding: 5vw 0;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 12px;
+  cursor: pointer;
+}
+header .hidden {
+  overflow: hidden;
+  height: 100vw;
 }
 
 h2 {
@@ -124,4 +186,9 @@ footer {
   margin-top: 20px;
   background-color: #1f1f1f;
   color: white;
+}
+
+.hidden {
+  overflow: hidden;
+  height: 100vw;
 }
