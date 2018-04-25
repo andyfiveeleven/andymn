@@ -9,13 +9,3 @@ $('.main-nav ul li').click(function(){
   $('.main-nav ul').addClass('menu');
   $('.main-nav ul').removeClass('display-nav');
 });
-
-// view.menuToggle = () => {
- //   var $menu = $('#menu');
- //   var $hamburger = $('.icon-menu');
- //
- //   $hamburger.on('click', function(){
- //     $menu.toggleClass('active');
- //     $hamburger.toggleClass('active');
- //   });
- // };
