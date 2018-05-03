@@ -1,8 +1,7 @@
 @import "../../vars.scss";
 
 header{
-  height: 20vw;
-  border: 1vw solid black;
+  height: 17vw;
 
   h1{
     position: absolute;
@@ -29,7 +28,7 @@ header{
 
   .menu{
     position: fixed;
-    top: 20vw;
+    top: 17vw;
     left:-100%;
     z-index: 99;
     width: 100%;
@@ -45,12 +44,12 @@ header{
     text-align: center;
     color: white;
     font-size: 10vw;
-    padding: 5vw 0;
+    padding: 4vw 0;
   }
 
   .display-nav {
     position: fixed;
-    top: 20vw;
+    top: 17vw;
     left:-100%;
     z-index: 99;
     width: 100%;
@@ -66,7 +65,7 @@ header{
     text-align: center;
     color: white;
     font-size: 10vw;
-    padding: 5vw 0;
+    padding: 4vw 0;
   }
 
 

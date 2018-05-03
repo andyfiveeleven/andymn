@@ -1,6 +1,5 @@
 header {
-  height: 20vw;
-  border: 1vw solid black;
+  height: 17vw;
 }
 header h1 {
   position: absolute;
@@ -24,7 +23,7 @@ header .main-nav {
 }
 header .menu {
   position: fixed;
-  top: 20vw;
+  top: 17vw;
   left: -100%;
   z-index: 99;
   width: 100%;
@@ -39,11 +38,11 @@ header .menu li a {
   text-align: center;
   color: white;
   font-size: 10vw;
-  padding: 5vw 0;
+  padding: 4vw 0;
 }
 header .display-nav {
   position: fixed;
-  top: 20vw;
+  top: 17vw;
   left: -100%;
   z-index: 99;
   width: 100%;
@@ -58,7 +57,7 @@ header .display-nav li a {
   text-align: center;
   color: white;
   font-size: 10vw;
-  padding: 5vw 0;
+  padding: 4vw 0;
 }
 header li {
   list-style: none;
