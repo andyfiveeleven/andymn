@@ -1,0 +1,35 @@
+@import "../../vars.scss";
+.resume{
+  .hero{
+    margin-bottom: 50px;
+  }
+
+
+  .resume-blocks {
+    padding: 2vw 4vw;
+    margin-bottom: 50px;
+
+    h2{
+      text-align: left;
+      font-size: 7vw;
+      margin-bottom: 20px;
+      font-family: $font-main;
+    }
+
+    h3{
+      font-size: 5vw;
+      padding-bottom: 2vw;
+      font-family: $font-secondary;
+    }
+
+    ul{
+      list-style: circle inside;
+      margin: 2vw 4vw;
+      font-family: $font-main;
+
+      li{
+        padding: 2vw;
+      }
+    }
+  }
+}

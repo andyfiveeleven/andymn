@@ -6,7 +6,7 @@ h2{
   padding-top: 2vw;
   padding-bottom: 2vw;
   margin-bottom: 4vw;
-  font-family: $font-secondary;
+  font-family: $font-main;
   font-size: 8vw;
 }
 
@@ -26,28 +26,6 @@ p{
 .home{
   font-family: $font-main;
 
-  .hero{
-    height: 75vw;
-    width: 100%;
-    position: relative;
-
-    img{
-      width: 100%;
-      height: 100%;
-      position: absolute;
-    }
-
-    h2{
-      position: absolute;
-      text-align: center;
-      width: 80%;
-      margin-top: 30vw;
-      margin-left: 10%;
-      margin-right: 10%;
-      font-size: 10vw;
-    }
-  }
-
   .quick-about{
     background-color: $light-grey;
     padding: 12vw 4vw;
@@ -58,7 +36,7 @@ p{
       padding-top: 2vw;
       padding-bottom: 2vw;
       margin-bottom: 4vw;
-      font-family: $font-secondary;
+      font-family: $font-main;
       font-size: 8vw;
     }
 

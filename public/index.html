@@ -3,15 +3,23 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Andy Martin</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/styles/icomoon.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Gothic+A1:300|Quicksand:500|Raleway:500" rel="stylesheet">
   </head>
   <body>
     <header>
         <div class="max-width">
           <h1>Andy Martin</h1>
-          <div class="nav-icon">E</div>
+          <div class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <nav class="main-nav">
             <ul class="menu">
               <li><a href="/">Home</a></li>
@@ -29,7 +37,7 @@
       <section class="tab-content home">
         <div class="hero">
           <img src="img/discoandy.jpg">
-          <h2>I &hearts; Users and Disco </h2>
+          <div class="after"><h2>I &hearts; Users and Disco</h2></div>
         </div>
 
         <div class="quick-about">
@@ -93,54 +101,93 @@
       </section>
 
       <section class="tab-content resume">
-        <h2>My Experience</h2>
-        <h3>MGM LLP - Contract Developer, 2/18-present</h3>
-          <ul>
-            <li>Temporary updates to legacy site (decade old Wordpress mess) </li>
-            <li>Migrate website to Square Space (with some custom CSS)</li>
-            <li>SEO optimization</li>
-            <li>Styling update and redesign</li>
-          </ul>
+        <div class="hero">
+          <img src="img/stacks.jpg">
+          <div class="after"><h2>A little bit of background </h2></div>
+        </div>
 
-        <h3>Eat Seattle - Design/Development Consultant, 1/18 - 2/18</h3>
-          <ul>
-            <li>Teach admin web fundementals</li>
-            <li>Recomend design updates</li>
-            <li>SEO optimization</li>
-          </ul>
+        <div class="resume-blocks">
+          <h2>Technologies</h2>
+          <h3>Every Day Stuff</h3>
+            <ul>
+              <li>Sass / LESS</li>
+              <li>HTML5 / CSS3</li>
+              <li>Javascript / jQuery</li>
+              <li>Version Control (GIT)</li>
+              <li>Responsive Layout and Design</li>
+              <li>Agile Methodology</li>
+              <li>Mobile First Style</li>
+            </ul>
+        </div>
 
-        <h3>CodeFellows - Student, 4/17 - 9/17</h3>
+        <div class="resume-blocks">
+          <h3>Experience With</h3>
           <ul>
-            <li>Javascript architectures</li>
-            <li>ReactJS and Redux</li>
-            <li>NodeJS</li>
-            <li>MongoDB & AWS S3</li>
-            <li>CSS3 with SASS, HTML5</li>
+            <li>React.js / redux</li>
+            <li>Node.js / Express</li>
+            <li>Ajax</li>
+            <li>Mocha, Chai and Enzyme testing</li>
+            <li>OAuth</li>
+            <li>AWS S3</li>
           </ul>
+        </div>
 
-        <h3>PayScale - Account Executive,  7/14- 3/17</h3>
-          <ul>
-            <li>Interpreting user and customer stories</li>
-            <li>Organized user focused product walkthroughs </li>
-            <li>Translated technical specifications to common language</li>
-            <li>Empowered laypeople to communicate technical details to supervisors</li>
-            <li>Navigated new product releases, became team-wide product expert</li>
-          </ul>
+        <div class="resume-blocks">
+          <h2>Work Experience</h2>
+          <h3>Contract Developer</h3>
+          <h4><a target="_blank" href="http://www.mgmllp.com">MGM LLP</a>, remote, 2/18-present</h4>
+            <ul>
+              <li>Temporary updates to legacy site (decade old Wordpress mess) </li>
+              <li>Migrate website to Square Space (with some custom CSS)</li>
+              <li>SEO optimization</li>
+              <li>Styling update and redesign</li>
+            </ul>
+        </div>
 
-        <h3>Legal Reach - Programming Intern, 7/13 - 8/13</h3>
-          <ul>
-            <li>Product design and user testing</li>
-            <li>HTML and CSS</li>
-            <li>Agile product development</li>
-            <li>User experience optimization</li>
-          </ul>
+        <div class="resume-blocks">
+          <h3>CodeFellows - Student</h3>
+          <h3> 4/17 - 9/17</h3>
+            <ul>
+              <li>Javascript architectures</li>
+              <li>ReactJS and Redux</li>
+              <li>NodeJS</li>
+              <li>MongoDB & AWS S3</li>
+              <li>CSS3 with SASS, HTML5</li>
+            </ul>
+          </div>
 
-        <h3>Harper Joy Theater - Master Carpenter, 9/12 - 6/14</h3>
-          <ul>
-            <li>Worked closely with external designers successfully construct their vision</li>
-            <li>Managed release and build cycle: design, plan, build, troubleshoot, polish, repeat.</li>
-            <li>Worked in 2 week sprints for major projects. Helped play interpreter between directors, designers, builders, and users(actors).</li>
-          </ul>
+        <div class="resume-blocks">
+          <h3>PayScale - Account Executive</h3>
+          <h3>7/14- 3/17</h3>
+            <ul>
+              <li>Interpreting user and customer stories</li>
+              <li>Organized user focused product walkthroughs </li>
+              <li>Translated technical specifications to common language</li>
+              <li>Empowered laypeople to communicate technical details to supervisors</li>
+              <li>Navigated new product releases, became team-wide product expert</li>
+            </ul>
+        </div>
+
+        <div class="resume-blocks">
+          <h3>Legal Reach - Programming Intern</h3>
+          <h3>7/13 - 8/13</h3>
+            <ul>
+              <li>Product design and user testing</li>
+              <li>HTML and CSS</li>
+              <li>Agile product development</li>
+              <li>User experience optimization</li>
+            </ul>
+        </div>
+
+        <div class="resume-blocks">
+          <h3>Harper Joy Theater - Master Carpenter</h3>
+          <h3>9/12 - 6/14</h3>
+            <ul>
+              <li>Worked closely with external designers successfully construct their vision</li>
+              <li>Managed release and build cycle: design, plan, build, troubleshoot, polish, repeat.</li>
+              <li>Worked in 2 week sprints for major projects. Helped play interpreter between directors, designers, builders, and users(actors).</li>
+            </ul>
+        </div>
 
         <h2>Education</h2>
         <p>Whitman College, Walla Walla, WA.   Major-Sociology, Minor-Film & Media Studies</p>
