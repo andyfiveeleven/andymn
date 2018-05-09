@@ -1,9 +1,28 @@
 @import "../../vars.scss";
 
+.jr-hero{
+  background-color: $light-grey;
+  padding: $gutter-large;
+
+  h2{
+    font-size: 10vw;
+    font-family: $font-secondary;
+    margin-bottom: $gutter-small;
+  }
+
+  p{
+    font-family: $font-main;
+    font-size: 8vw;
+    line-height: 9vw;
+  }
+}
+
 .portfolio-squares{
   width: 90%;
   margin: 0 auto;
   height: 90vw;
+  position: relative;
+  margin-bottom: 30px;
 
   img{
     position: absolute;
@@ -25,11 +44,48 @@
     background: rgba(0, 0, 0, .6);
 
     .ps-tagline{
-      position: relative;
+      position: absolute;
       top: 20vw;
-      font-size: 5vw;
+      width: 100%;
+      text-align: center;
+      font-size: 4vw;
+      padding: 0vw;
       margin-bottom: $gutter-small;
       padding: $gutter-small;
+      font-style: italic;
+    }
+
+    .ps-tag-2{
+      position: absolute;
+      top: 60vw;
+      width: 100%;
+      text-align: center;
+      font-size: 4vw;
+      padding: 0vw;
+      margin-bottom: $gutter-small;
+      padding: $gutter-small;
+    }
+
+    .ps-mainline{
+      position: absolute;
+      top: 30vw;
+      width: 100%;
+      text-align: center;
+      font-size: 8vw;
+      padding: 0vw;
+      margin-bottom: $gutter-small;
+      padding: $gutter-small;
+    }
+
+    a{
+      position: absolute;
+      top: 45vw;
+      left: calc(50% - 20vw);
+      outline: 2px solid white;
+      width: 36vw;
+      text-align: center;
+      padding: 2vw 4vw;
+      font-size: 7vw;
     }
   }
 }
