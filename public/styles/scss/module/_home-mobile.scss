@@ -3,12 +3,12 @@
 h2{
   width: 100%;
   text-align: center;
-  padding-top: 2vw;
   padding-bottom: 2vw;
   margin-bottom: 4vw;
-  font-family: $font-main;
-  font-size: 8vw;
+  font-family: $font-header;
+  font-size: 10vw;
 }
+
 
 p{
   text-align: center;
@@ -53,6 +53,16 @@ p{
   .quick-resume{
     padding: 12vw 4vw;
 
+    h2{
+      width: 100%;
+      text-align: center;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      margin-bottom: 4vw;
+      font-family: $font-main;
+      font-size: 8vw;
+    }
+
     .res-squares{
       width: 80vw;
       margin: 10vw auto;
@@ -73,6 +83,16 @@ p{
     padding: 12vw 4vw;
     background-color: $light-grey;
 
+    h2{
+      width: 100%;
+      text-align: center;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      margin-bottom: 4vw;
+      font-family: $font-main;
+      font-size: 8vw;
+    }
+
     .portfolio-squares {
       width: 65vw;
       height: 65vw;
@@ -85,5 +105,15 @@ p{
 
   .quick-contact{
     padding: 12vw 4vw;
+
+    h2{
+      width: 100%;
+      text-align: center;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      margin-bottom: 4vw;
+      font-family: $font-main;
+      font-size: 8vw;
+    }
   }
 }

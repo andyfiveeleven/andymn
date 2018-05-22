@@ -24,6 +24,33 @@
   }
 
   h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2vw;
+    margin-bottom: 4vw;
+    font-family: $font-header;
+    font-size: 10vw;
     padding-top: 20%;
+  }
+}
+
+.jr-hero{
+  background-color: $light-grey;
+  padding: $gutter-large;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+
+  h2{
+    font-size: 8vw;
+    font-family: $font-secondary;
+    margin-bottom: $gutter-small;
+  }
+
+  p{
+    font-family: $font-main;
+    font-size: 6vw;
+    line-height: 9vw;
   }
 }

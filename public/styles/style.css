@@ -41,7 +41,31 @@ footer {
   background: rgba(0, 0, 0, 0.6);
 }
 .hero h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2vw;
+  margin-bottom: 4vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10vw;
   padding-top: 20%;
+}
+
+.jr-hero {
+  background-color: #edeeef;
+  padding: 4vw;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.jr-hero h2 {
+  font-size: 8vw;
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 2vw;
+}
+.jr-hero p {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 6vw;
+  line-height: 9vw;
 }
 
 header {
@@ -49,9 +73,11 @@ header {
 }
 header h1 {
   position: absolute;
-  top: 4vw;
-  left: 3vw;
-  font-size: 10vw;
+  top: 2vw;
+  text-align: center;
+  left: 4vw;
+  font-size: 7vw;
+  font-family: "Permanent Marker", cursive;
 }
 header .nav-icon {
   position: absolute;
@@ -83,9 +109,9 @@ header .menu li a {
   width: 99.7%;
   text-align: center;
   color: white;
-  font-size: 10vw;
+  font-size: 9vw;
   padding: 4vw 0;
-  font-family: "Dosis", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 header .display-nav {
   position: fixed;
@@ -103,9 +129,9 @@ header .display-nav li a {
   width: 99.7%;
   text-align: center;
   color: white;
-  font-size: 10vw;
+  font-size: 9vw;
   padding: 4vw 0;
-  font-family: "Dosis", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 header li {
   list-style: none;
@@ -124,11 +150,10 @@ header .hidden {
 h2 {
   width: 100%;
   text-align: center;
-  padding-top: 2vw;
   padding-bottom: 2vw;
   margin-bottom: 4vw;
-  font-family: "Gothic A1", sans-serif;
-  font-size: 8vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10vw;
 }
 
 p {
@@ -171,6 +196,15 @@ p {
 .home .quick-resume {
   padding: 12vw 4vw;
 }
+.home .quick-resume h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-bottom: 4vw;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 8vw;
+}
 .home .quick-resume .res-squares {
   width: 80vw;
   margin: 10vw auto;
@@ -187,6 +221,15 @@ p {
   padding: 12vw 4vw;
   background-color: #edeeef;
 }
+.home .quick-portfolio h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-bottom: 4vw;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 8vw;
+}
 .home .quick-portfolio .portfolio-squares {
   width: 65vw;
   height: 65vw;
@@ -197,6 +240,15 @@ p {
 }
 .home .quick-contact {
   padding: 12vw 4vw;
+}
+.home .quick-contact h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-bottom: 4vw;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 8vw;
 }
 
 .nav-icon {
@@ -220,7 +272,7 @@ p {
 .nav-icon span {
   display: block;
   position: absolute;
-  height: 5px;
+  height: 3px;
   width: 50%;
   background: black;
   opacity: 1;
@@ -300,21 +352,6 @@ p {
   top: 17px;
 }
 
-.jr-hero {
-  background-color: #edeeef;
-  padding: 4vw;
-}
-.jr-hero h2 {
-  font-size: 10vw;
-  font-family: "Dosis", sans-serif;
-  margin-bottom: 2vw;
-}
-.jr-hero p {
-  font-family: "Gothic A1", sans-serif;
-  font-size: 8vw;
-  line-height: 9vw;
-}
-
 .portfolio-squares {
   width: 90%;
   margin: 0 auto;
@@ -366,7 +403,7 @@ p {
   top: 30vw;
   width: 100%;
   text-align: center;
-  font-size: 8vw;
+  font-size: 7vw;
   padding: 0vw;
   margin-bottom: 2vw;
   padding: 2vw;

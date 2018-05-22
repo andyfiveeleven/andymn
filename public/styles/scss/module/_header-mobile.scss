@@ -5,9 +5,11 @@ header{
 
   h1{
     position: absolute;
-    top: 4vw;
-    left: 3vw;
-    font-size: 10vw;
+    top: 2vw;
+    text-align: center;
+    left: 4vw;
+    font-size: 7vw;
+    font-family: $font-logo;
   }
 
   .nav-icon{
@@ -43,9 +45,9 @@ header{
     width: 99.7%;
     text-align: center;
     color: white;
-    font-size: 10vw;
+    font-size: 9vw;
     padding: 4vw 0;
-    font-family: $font-secondary;
+    font-family: $font-logo;
   }
 
   .display-nav {
@@ -65,9 +67,9 @@ header{
     width: 99.7%;
     text-align: center;
     color: white;
-    font-size: 10vw;
+    font-size: 9vw;
     padding: 4vw 0;
-    font-family: $font-secondary;
+    font-family: $font-logo;
   }
 
 
