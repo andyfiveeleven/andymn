@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .false-button {
   width: max-content;
   border: 4px solid #1f1f1f;
@@ -8,15 +12,46 @@
 }
 
 footer {
-  height: 150px;
-  margin-top: 20px;
   background-color: #1f1f1f;
-  color: white;
+  color: #fff;
+  padding: 7vw 5vw;
+  height: inherit;
+}
+footer h3 {
+  text-align: center;
+  font-size: 7vw;
+  margin-bottom: 5vw;
+  font-family: "Permanent Marker", cursive;
+}
+footer ul {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  padding-top: 5vw;
+  font-size: 6vw;
+}
+footer ul li {
+  display: inline-block;
+  padding: 1vw 3vw;
+}
+footer .icon-list ul {
+  font-size: 5vw;
+}
+footer .icon-list ul li {
+  padding: 4vw 5vw;
+}
+footer p {
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+  font-size: 4vw;
 }
 
 .hidden {
   overflow: hidden;
   height: 100vw;
+}
+
+a {
+  cursor: pointer;
 }
 
 .hero {
@@ -46,8 +81,14 @@ footer {
   padding-bottom: 2vw;
   margin-bottom: 4vw;
   font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5vw;
   font-size: 10vw;
   padding-top: 20%;
+}
+.hero .hero-tag {
+  text-align: center;
+  font-style: italic;
+  font-size: 5vw;
 }
 
 .jr-hero {
@@ -68,8 +109,33 @@ footer {
   line-height: 9vw;
 }
 
+.text-content-blocks {
+  padding: 2vw 4vw;
+  margin-bottom: 50px;
+}
+.text-content-blocks h2 {
+  text-align: left;
+  font-size: 7vw;
+  margin-bottom: 20px;
+  font-family: "Gothic A1", sans-serif;
+}
+.text-content-blocks h3 {
+  font-size: 5vw;
+  padding-bottom: 2vw;
+  font-family: "Dosis", sans-serif;
+}
+.text-content-blocks ul {
+  list-style: circle inside;
+  margin: 2vw 4vw;
+  font-family: "Gothic A1", sans-serif;
+}
+.text-content-blocks ul li {
+  padding: 2vw;
+}
+
 header {
   height: 17vw;
+  background-color: #fff;
 }
 header h1 {
   position: absolute;
@@ -422,26 +488,42 @@ p {
 .resume .hero {
   margin-bottom: 50px;
 }
-.resume .resume-blocks {
-  padding: 2vw 4vw;
-  margin-bottom: 50px;
+
+.about .text-content-blocks h3 {
+  text-align: center;
+  font-size: 8vw;
 }
-.resume .resume-blocks h2 {
-  text-align: left;
-  font-size: 7vw;
-  margin-bottom: 20px;
+.about .text-content-blocks p {
   font-family: "Gothic A1", sans-serif;
+  line-height: 9vw;
 }
-.resume .resume-blocks h3 {
-  font-size: 5vw;
-  padding-bottom: 2vw;
-  font-family: "Dosis", sans-serif;
+
+.contact .jr-hero {
+  margin-bottom: 0px;
 }
-.resume .resume-blocks ul {
-  list-style: circle inside;
-  margin: 2vw 4vw;
+.contact .jr-hero h2 {
+  font-size: 9vw;
+}
+.contact .jr-hero ul {
+  padding: 5vw;
+}
+.contact .jr-hero ul li {
+  font-size: 6vw;
+  margin-bottom: 15px;
+}
+.contact .jr-hero ul li span:before {
+  font-size: 9vw;
+}
+.contact .text-content-blocks {
+  padding: 4vw 0vw;
+  margin-bottom: 0px;
+}
+.contact .text-content-blocks h3 {
+  text-align: center;
+  font-size: 8vw;
+}
+.contact .text-content-blocks p {
   font-family: "Gothic A1", sans-serif;
-}
-.resume .resume-blocks ul li {
-  padding: 2vw;
+  line-height: 9vw;
+  margin-bottom: 0px;
 }

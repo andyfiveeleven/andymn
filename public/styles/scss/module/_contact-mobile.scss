@@ -1,0 +1,42 @@
+.contact{
+
+  .jr-hero{
+    margin-bottom: 0px;
+
+    h2{
+      font-size: 9vw;
+    }
+
+    ul{
+      padding: 5vw;
+
+      li{
+        font-size: 6vw;
+        margin-bottom: 15px;
+
+        span:before{
+          font-size: 9vw;
+        }
+      }
+    }
+  }
+
+
+
+  .text-content-blocks{
+
+    padding: 4vw 0vw;
+    margin-bottom: 0px;
+
+    h3{
+      text-align: center;
+      font-size: 8vw;
+    }
+
+    p {
+      font-family: $font-main;
+      line-height: 9vw;
+      margin-bottom: 0px;
+    }
+  }
+}

@@ -1,5 +1,9 @@
 @import "../../vars.scss";
 
+a {
+  cursor: pointer; 
+}
+
 .hero{
   height: 75vw;
   width: 100%;
@@ -29,8 +33,15 @@
     padding-bottom: 2vw;
     margin-bottom: 4vw;
     font-family: $font-header;
+    letter-spacing: .5vw;
     font-size: 10vw;
     padding-top: 20%;
+  }
+
+  .hero-tag{
+    text-align: center;
+    font-style: italic;
+    font-size: 5vw;
   }
 }
 
@@ -52,5 +63,33 @@
     font-family: $font-main;
     font-size: 6vw;
     line-height: 9vw;
+  }
+}
+
+.text-content-blocks {
+  padding: 2vw 4vw;
+  margin-bottom: 50px;
+
+  h2{
+    text-align: left;
+    font-size: 7vw;
+    margin-bottom: 20px;
+    font-family: $font-main;
+  }
+
+  h3{
+    font-size: 5vw;
+    padding-bottom: 2vw;
+    font-family: $font-secondary;
+  }
+
+  ul{
+    list-style: circle inside;
+    margin: 2vw 4vw;
+    font-family: $font-main;
+
+    li{
+      padding: 2vw;
+    }
   }
 }
