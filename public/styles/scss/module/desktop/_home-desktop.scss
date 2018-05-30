@@ -2,17 +2,18 @@
 
   .home{
     .quick{
-      padding: 80px 80px;
+      padding: 80px 6%;
 
       h2{
         padding: 0px;
         font-size: 45px;
-        margin-bottom: 0px;
+        margin-bottom: 30px;
       }
 
       p{
         padding: 20px;
-        margin: 20px 0px;
+        margin: 0px;
+        margin-bottom: 20px;
         font-size: 22px;
         line-height: 40px;
       }
@@ -20,7 +21,9 @@
 
       .res-squares{
         display: inline-block;
-        width: 33%;
+        float: left;
+        width: 28.5%;
+        padding: 0px 2%;
         margin-top: 40px;
         margin-bottom: 0px;
 
@@ -29,37 +32,38 @@
         }
 
         p{
-          padding: 20px;
+          padding: 20px 0px;
           margin: 20px 0px;
-          font-size: 22px;
+          font-size: 18px;
           line-height: 40px;
         }
       }
 
       .portfolio-squares{
         display: inline-block;
-        width: 30%;
+        width: 29.5%;
         height: 25vw;
         padding: 0px;
         margin: 30px 1.5%;
 
         p{
           padding: 0px;
-          font-size: 20px;
           margin: 0px;
         }
 
         .ps-tagline {
           top: 22%;
+          font-size: 2vw;
         }
 
         .ps-mainline{
           top: 35%;
+          font-size: 2.5vw;
         }
 
         .ps-tag-2 {
           top: 75%;
-          font-size: 15px;
+          font-size: 1.5vw;
           font-style: italic;
         }
 
@@ -68,7 +72,7 @@
           left: 23%;
           width: 40%;
           padding: 10px 20px;
-          font-size: 20px;
+          font-size: 2vw;;
         }
       }
     }
