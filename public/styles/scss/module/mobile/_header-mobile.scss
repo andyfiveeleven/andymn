@@ -45,7 +45,7 @@ header{
     float: left;
     width: 99.7%;
     text-align: center;
-    color: white;
+    color: $white;
     font-size: 9vw;
     padding: 4vw 0;
     font-family: $font-logo;
@@ -67,7 +67,7 @@ header{
     float: left;
     width: 99.7%;
     text-align: center;
-    color: white;
+    color: $white;
     font-size: 9vw;
     padding: 4vw 0;
     font-family: $font-logo;
@@ -79,7 +79,7 @@ header{
   }
 
   li a {
-    color: white;
+    color: $white;
     text-decoration: none;
     padding-left: 12px;
     cursor: pointer;

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 640px){
+  .contact{
+    .jr-hero{
+      h2{
+        font-size: 50px;
+      }
+
+      ul{
+        padding: 5%;
+
+        li{
+          font-size: 35px;
+          margin-bottom: 30px;
+
+          span:before{
+            font-size: 35px;
+          }
+        }
+      }
+    }
+
+    .text-content-blocks{
+      h3{
+        font-size: 40px;
+      }
+
+      p{
+        font-size: 25px;
+        line-height: 50px;
+        padding: 20px 100px;
+      }
+    }
+
+  }
+}

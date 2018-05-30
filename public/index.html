@@ -44,7 +44,8 @@
 
         <div class="quick quick-about">
           <h2>Who I am</h2>
-          <p>I'm a user obsessed developer. I love to tinker with something until it's perfect. I, for some reason, absolutely love CSS (especially SASS).</p>
+          <p id="mini-about-short-p">I'm a user obsessed developer. I love to tinker with something until it's perfect. I, for some reason, absolutely love CSS (especially SASS).</p>
+          <!-- ^^^ this <p> is special ^^^ -->
           <p>Full Stack Javascript, primarily in in React.js, Node.js, and Express</p>
           <div class="false-button">
             <a href="/about" target="_top">More about me</a>
@@ -122,57 +123,60 @@
           <p>I build everything with the end user in mind, my experience in sales taught me one thing, only easy-to-navigate products sell. Below you'll see an example of some of my projects.</p>
         </div>
 
-        <div class="portfolio-squares">
-          <img src="img/project-photos/mgmllp.jpg" alt="">
-          <div class="after-img">
-            <p class="ps-tagline">Squarespace Website</p>
-            <p class="ps-mainline">MGM LLP</p>
-            <div class="butt-contain">
-              <a href="https://andrew-martin-yek9.squarespace.com/" target="_blank">View Project</a>
+        <div class="interior-Portfolio">
+          <div class="portfolio-squares">
+            <img src="img/project-photos/mgmllp.jpg" alt="">
+            <div class="after-img">
+              <p class="ps-tagline">Squarespace Website</p>
+              <p class="ps-mainline">MGM LLP</p>
+              <div class="butt-contain">
+                <a href="https://andrew-martin-yek9.squarespace.com/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-squares">
+            <img src="img/project-photos/happy-andy-300x300.jpg" alt="">
+            <div class="after-img">
+              <p class="ps-tagline">jQuery & Sass</p>
+              <p class="ps-mainline">Andymn.com</p>
+              <div class="butt-contain">
+                <a href="https://github.com/andyfiveeleven/andymn" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-squares">
+            <img src="img/project-photos/lion-300x300.jpg" alt="">
+            <div class="after-img">
+              <p class="ps-tagline">MERN Stack</p>
+              <p class="ps-mainline">Responsible Consumption</p>
+              <p class="ps-tag-2">Can't be live for legal reasons</p>
+              <div class="butt-contain">
+                <a href="https://github.com/andyfiveeleven/responsible-consumption-frontend" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-squares">
+            <img src="img/project-photos/tunnel.jpg" alt="">
+            <div class="after-img">
+              <p class="ps-tagline">jQuery, GoogleMaps API, Sass</p>
+              <p class="ps-mainline">Weather or Not</p>
+              <div class="butt-contain">
+                <a href="https://weather0rn0t.herokuapp.com/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-squares">
+            <img src="img/project-photos/mix-it-up.jpeg" alt="">
+            <div class="after-img">
+              <p class="ps-tagline">Vanilla Javascript Challenge</p>
+              <p class="ps-mainline">Mix It Up</p>
+              <div class="butt-contain">
+                <a href="https://andyfiveeleven.github.io/Mix-It-Up/index.html" target="_blank">View Project</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="portfolio-squares">
-          <img src="img/project-photos/happy-andy-300x300.jpg" alt="">
-          <div class="after-img">
-            <p class="ps-tagline">jQuery & Sass</p>
-            <p class="ps-mainline">Andymn.com</p>
-            <div class="butt-contain">
-              <a href="https://github.com/andyfiveeleven/andymn" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-squares">
-          <img src="img/project-photos/lion-300x300.jpg" alt="">
-          <div class="after-img">
-            <p class="ps-tagline">MERN Stack</p>
-            <p class="ps-mainline">Responsible Consumption</p>
-            <p class="ps-tag-2">Can't be live for legal reasons</p>
-            <div class="butt-contain">
-              <a href="https://github.com/andyfiveeleven/responsible-consumption-frontend" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-squares">
-          <img src="img/project-photos/tunnel.jpg" alt="">
-          <div class="after-img">
-            <p class="ps-tagline">jQuery, GoogleMaps API, Sass</p>
-            <p class="ps-mainline">Weather or Not</p>
-            <div class="butt-contain">
-              <a href="https://weather0rn0t.herokuapp.com/" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-squares">
-          <img src="img/project-photos/mix-it-up.jpeg" alt="">
-          <div class="after-img">
-            <p class="ps-tagline">Vanilla Javascript Challenge</p>
-            <p class="ps-mainline">Mix It Up</p>
-            <div class="butt-contain">
-              <a href="https://andyfiveeleven.github.io/Mix-It-Up/index.html" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
+
       </section>
 
       <section class="tab-content resume">
@@ -182,94 +186,114 @@
           <div class="after-hero"><h2>My Background </h2></div>
         </div>
 
-        <div class="text-content-blocks">
-          <h2>Technologies</h2>
-          <h3>Every Day Stuff</h3>
+        <div class="interior-resume">
+          <div class="text-content-blocks techno-blocks">
+            <h2>Technologies</h2>
+          </div>
+
+          <div class="text-content-blocks techno-blocks">
+            <h3>Every Day Stuff</h3>
+              <ul>
+                <li>Sass / LESS</li>
+                <li>HTML5 / CSS3</li>
+                <li>Javascript / jQuery</li>
+                <li>Version Control (GIT)</li>
+                <li>Responsive Layout and Design</li>
+                <li>Agile Methodology</li>
+                <li>Mobile First Style</li>
+              </ul>
+          </div>
+
+          <div class="text-content-blocks techno-blocks">
+            <h3>Experience With</h3>
             <ul>
-              <li>Sass / LESS</li>
-              <li>HTML5 / CSS3</li>
-              <li>Javascript / jQuery</li>
-              <li>Version Control (GIT)</li>
-              <li>Responsive Layout and Design</li>
-              <li>Agile Methodology</li>
-              <li>Mobile First Style</li>
+              <li>React.js / redux</li>
+              <li>Node.js / Express</li>
+              <li>Ajax</li>
+              <li>Mocha, Chai and Enzyme testing</li>
+              <li>OAuth</li>
+              <li>AWS S3</li>
             </ul>
-        </div>
+          </div>
 
-        <div class="text-content-blocks">
-          <h3>Experience With</h3>
-          <ul>
-            <li>React.js / redux</li>
-            <li>Node.js / Express</li>
-            <li>Ajax</li>
-            <li>Mocha, Chai and Enzyme testing</li>
-            <li>OAuth</li>
-            <li>AWS S3</li>
-          </ul>
-        </div>
+          <div class="clear-fix"></div>
 
-        <div class="text-content-blocks">
-          <h2>Work Experience</h2>
-          <h3><a target="_blank" href="http://www.mgmllp.com">MGM LLP</a> - Contract Developer</h3>
-          <h3> 2/18-5-18</h3>
-            <ul>
-              <li>Temporary updates to legacy site (decade old Wordpress mess) </li>
-              <li>Migrate website to Square Space (with some custom CSS)</li>
-              <li>SEO optimization</li>
-              <li>Styling update and redesign</li>
-            </ul>
-        </div>
+          <div class="techno-blocks">
+            <h2>Work Experience</h2>
+          </div>
 
-        <div class="text-content-blocks">
-          <h3>CodeFellows - Student</h3>
-          <h3> 4/17 - 9/17</h3>
-            <ul>
-              <li>Javascript architectures</li>
-              <li>ReactJS and Redux</li>
-              <li>NodeJS</li>
-              <li>MongoDB & AWS S3</li>
-              <li>CSS3 with SASS, HTML5</li>
-            </ul>
-        </div>
+          <div class="text-content-blocks res-blocks">
+            <h3><a target="_blank" href="http://www.mgmllp.com">MGM LLP</a> - Contract Developer</h3>
+            <h3> 2/18-5-18</h3>
+              <ul>
+                <li>Temporary updates to legacy site (decade old Wordpress mess) </li>
+                <li>Migrate website to Square Space (with some custom CSS)</li>
+                <li>SEO optimization</li>
+                <li>Styling update and redesign</li>
+              </ul>
+          </div>
 
-        <div class="text-content-blocks">
-          <h3>PayScale - Account Executive</h3>
-          <h3>7/14- 3/17</h3>
-            <ul>
-              <li>Interpreting user and customer stories</li>
-              <li>Organized user focused product walkthroughs </li>
-              <li>Translated technical specifications to common language</li>
-              <li>Empowered laypeople to communicate technical details to supervisors</li>
-              <li>Navigated new product releases, became team-wide product expert</li>
-            </ul>
-        </div>
+          <div class="text-content-blocks res-blocks">
+            <h3>CodeFellows - Student</h3>
+            <h3> 4/17 - 9/17</h3>
+              <ul>
+                <li>Javascript architectures</li>
+                <li>ReactJS and Redux</li>
+                <li>NodeJS</li>
+                <li>MongoDB & AWS S3</li>
+                <li>CSS3 with SASS, HTML5</li>
+              </ul>
+          </div>
 
-        <div class="text-content-blocks">
-          <h3>Legal Reach - Programming Intern</h3>
-          <h3>7/13 - 8/13</h3>
-            <ul>
-              <li>Product design and user testing</li>
-              <li>HTML and CSS</li>
-              <li>Agile product development</li>
-              <li>User experience optimization</li>
-            </ul>
-        </div>
+          <div class="text-content-blocks res-blocks">
+            <h3>PayScale - Account Executive</h3>
+            <h3>7/14- 3/17</h3>
+              <ul>
+                <li>Interpreting user and customer stories</li>
+                <li>Organized user focused product walkthroughs </li>
+                <li>Translated technical specifications to common language</li>
+                <li>Empowered laypeople to communicate technical details to supervisors</li>
+                <li>Navigated new product releases, became team-wide product expert</li>
+              </ul>
+          </div>
 
-        <div class="text-content-blocks">
-          <h3>Harper Joy Theater - Master Carpenter</h3>
-          <h3>9/12 - 6/14</h3>
-            <ul>
-              <li>Worked closely with external designers successfully construct their vision</li>
-              <li>Managed release and build cycle: design, plan, build, troubleshoot, polish, repeat.</li>
-              <li>Worked in 2 week sprints for major projects. Helped play interpreter between directors, designers, builders, and users(actors).</li>
-            </ul>
-        </div>
+          <div class="text-content-blocks res-blocks">
+            <h3>Legal Reach - Programming Intern</h3>
+            <h3>7/13 - 8/13</h3>
+              <ul>
+                <li>Product design and user testing</li>
+                <li>HTML and CSS</li>
+                <li>Agile product development</li>
+                <li>User experience optimization</li>
+              </ul>
+          </div>
 
-        <div class="text-content-blocks">
-          <h2>Education</h2>
-          <h3>Whitman College, Walla Walla, WA. <h3>
-          <h3>Major-Sociology, Minor-Film & Media Studies</h3>
-          <h3>Graduated May 2014</h3>
+          <div class="text-content-blocks res-blocks">
+            <h3>Harper Joy Theater - Master Carpenter</h3>
+            <h3>9/12 - 6/14</h3>
+              <ul>
+                <li>Worked closely with external designers successfully construct their vision</li>
+                <li>Managed release and build cycle: design, plan, build, troubleshoot, polish, repeat.</li>
+                <li>Worked in 2 week sprints for major projects. Helped play interpreter between directors, designers, builders, and users(actors).</li>
+              </ul>
+          </div>
+
+          <div class="clear-fix">
+
+          </div>
+
+          <div class="text-content-blocks techno-blocks">
+            <h2>Education</h2>
+          </div>
+
+          <div class="text-content-blocks res-blocks edu">
+            <h3>Whitman College, Walla Walla, WA. </h3>
+            <h3>Major-Sociology, Minor-Film & Media Studies</h3>
+            <h3>Graduated May 2014</h3>
+          </div>
+        </div>
+        <div class="clear-fix">
+
         </div>
       </section>
 
@@ -338,8 +362,8 @@
         <ul>
           <li class="solo-icon"><a href="https://www.linkedin.com/in/andy-w-martin/" target="_blank"><span class="icon-linkedin"></span></a></li>
           <li class="solo-icon"><a href="https://www.github.com/andyfiveeleven" target="_blank"><span class="icon-github"></span></a></li>
-          <li class="solo-icon"><a href="https://www.linkedin.com/in/andy-w-martin/" target="_blank"><span class="icon-facebook"></span></a></li>
-          <li class="solo-envelop"><a href="https://www.github.com/andyfiveeleven" target="_blank"><span class="icon-github"></span></a></li>
+          <li class="solo-icon"><a href="https://www.facebook.com/andy.martin440" target="_blank"><span class="icon-facebook"></span></a></li>
+          <li class="solo-envelop"><a href="mailto:andy@andymn.com" target="_blank"><span class="icon-envelop"></span></a></li>
         </ul>
       </div>
 

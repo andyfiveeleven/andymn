@@ -1,10 +1,12 @@
 @import "../../vars.scss";
 
 body{
-  background-color: $white;
+  background-color: $true-white;
 }
 
-
+.clear-fix{
+  clear: both;
+}
 
 footer{
   background-color: $black;

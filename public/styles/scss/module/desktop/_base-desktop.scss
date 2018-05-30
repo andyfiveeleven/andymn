@@ -27,4 +27,95 @@
       font-size: 3vw;
     }
   }
+
+  .jr-hero{
+
+    h2{
+      font-size: 40px;
+      margin-bottom: $gutter-s-desk
+    }
+    p{
+      font-size:20px;
+      line-height: 40px;
+      padding: $gutter-s-desk 60px;
+    }
+  }
+
+  .interior-Portfolio{
+    padding: 0px 6%;
+
+    .portfolio-squares{
+      display: inline-block;
+      width: 28.5%;
+      height: 26vw;
+      padding: 0px;
+      margin: 2vw 2%;
+
+      .after-img{
+        p{
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .ps-tagline {
+          top: 22%;
+          font-size: 2vw;
+        }
+
+        .ps-mainline{
+          top: 35%;
+          font-size: 2.5vw;
+        }
+
+        .ps-tag-2 {
+          top: 75%;
+          font-size: 1.5vw;
+          font-style: italic;
+        }
+
+        a{
+          top: 62%;
+          left: 23%;
+          width: 40%;
+          padding: 10px 20px;
+          font-size: 2vw;;
+        }
+      }
+    }
+  }
+
+  footer{
+    padding: 40px;
+
+    h3{
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .nav2{
+      ul{
+        font-size: 30px;
+        padding-top: 20px;
+
+        li{
+          padding: 30px 10px;
+        }
+      }
+    }
+
+    .icon-list{
+      font-size: 30px;
+
+      ul{
+        li{
+          padding: 20px 50px;
+        }
+      }
+    }
+
+    p{
+      font-size: 30px;
+      padding: 20px;
+    }
+  }
 }

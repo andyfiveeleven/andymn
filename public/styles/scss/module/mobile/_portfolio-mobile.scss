@@ -23,7 +23,7 @@
     left: 0;
     font-family: $font-secondary;
     font-size: 10vw;
-    color: white;
+    color: $white;
     background: rgba(0, 0, 0, .6);
 
     .ps-tagline{
@@ -64,7 +64,7 @@
       position: absolute;
       top: 45vw;
       left: calc(50% - 20vw);
-      outline: 2px solid white;
+      outline: 2px solid $white;
       width: 36vw;
       text-align: center;
       padding: 2vw 4vw;
