@@ -1,13 +1,26 @@
-@import "../../vars.scss";
+@import "../../../vars.scss";
 
 a {
-  cursor: pointer; 
+  cursor: pointer;
+}
+
+.false-button{
+  width: max-content;
+  border: 4px solid $black;
+  border-radius: 2px;
+  padding: 4vw 7vw;
+  font-size: 5vw;
+  text-align: center;
 }
 
 .hero{
   height: 75vw;
   width: 100%;
   position: relative;
+
+  .desktop-hero{
+    display: none;
+  }
 
   img{
     width: 100%;
@@ -51,6 +64,7 @@ a {
   padding-top: 50px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+
 
 
   h2{

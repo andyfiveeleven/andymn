@@ -1,0 +1,29 @@
+@import "../../../vars.scss";
+
+@media only screen and (min-width: 640px){
+
+  .false-button{
+    padding: 15px 20px;
+    font-size: 25px;
+  }
+
+  .hero{
+    height: 50vw;
+
+    .mobile-hero{
+      display: none;
+    }
+
+    .desktop-hero{
+      display: block;
+    }
+
+    h2{
+      font-size: 6vw;
+    }
+
+    .hero-tag{
+      font-size: 3vw;
+    }
+  }
+}

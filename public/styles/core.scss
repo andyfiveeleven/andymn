@@ -1,9 +1,17 @@
 @import 'scss/base/base.scss';
-@import 'scss/module/base-mobile.scss';
-@import 'scss/module/header-mobile.scss';
-@import 'scss/module/home-mobile.scss';
-@import 'scss/module/hamburger.scss';
-@import 'scss/module/portfolio-mobile.scss';
-@import 'scss/module/resume-mobile.scss';
-@import 'scss/module/about-mobile.scss';
-@import 'scss/module/contact-mobile.scss';
+@import 'scss/module/mobile/base-mobile.scss';
+@import 'scss/module/mobile/header-mobile.scss';
+@import 'scss/module/mobile/home-mobile.scss';
+@import 'scss/module/mobile/hamburger.scss';
+@import 'scss/module/mobile/portfolio-mobile.scss';
+@import 'scss/module/mobile/resume-mobile.scss';
+@import 'scss/module/mobile/about-mobile.scss';
+@import 'scss/module/mobile/contact-mobile.scss';
+
+@import 'scss/module/desktop/base-desktop.scss';
+@import 'scss/module/desktop/header-desktop.scss';
+@import 'scss/module/desktop/home-desktop.scss';
+@import 'scss/module/desktop/portfolio-desktop.scss';
+@import 'scss/module/desktop/resume-desktop.scss';
+@import 'scss/module/desktop/about-desktop.scss';
+@import 'scss/module/desktop/contact-desktop.scss';

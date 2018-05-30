@@ -2,15 +2,6 @@ body {
   background-color: #fff;
 }
 
-.false-button {
-  width: max-content;
-  border: 4px solid #1f1f1f;
-  border-radius: 2px;
-  padding: 4vw 7vw;
-  font-size: 5vw;
-  text-align: center;
-}
-
 footer {
   background-color: #1f1f1f;
   color: #fff;
@@ -54,10 +45,22 @@ a {
   cursor: pointer;
 }
 
+.false-button {
+  width: max-content;
+  border: 4px solid #1f1f1f;
+  border-radius: 2px;
+  padding: 4vw 7vw;
+  font-size: 5vw;
+  text-align: center;
+}
+
 .hero {
   height: 75vw;
   width: 100%;
   position: relative;
+}
+.hero .desktop-hero {
+  display: none;
 }
 .hero img {
   width: 100%;
@@ -526,4 +529,143 @@ p {
   font-family: "Gothic A1", sans-serif;
   line-height: 9vw;
   margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 640px) {
+  .false-button {
+    padding: 15px 20px;
+    font-size: 25px;
+  }
+
+  .hero {
+    height: 50vw;
+  }
+  .hero .mobile-hero {
+    display: none;
+  }
+  .hero .desktop-hero {
+    display: block;
+  }
+  .hero h2 {
+    font-size: 6vw;
+  }
+  .hero .hero-tag {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 715px) {
+  body {
+    position: relative;
+  }
+
+  header {
+    background: transparent;
+    position: absolute;
+    z-index: 1000000;
+    color: #fff;
+    width: 100%;
+    height: 120px;
+  }
+  header h1 {
+    position: static;
+    display: inline-block;
+    font-size: 45px;
+    width: 20%;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  header h1:hover {
+    color: #33b9da;
+  }
+  header .nav-icon {
+    display: none;
+  }
+  header .main-nav {
+    float: right;
+    width: 70%;
+    margin: 0px;
+    margin-right: 20px;
+    display: inline-block;
+    height: 120px;
+  }
+  header .main-nav:hover {
+    color: #a9a9a9;
+  }
+  header .main-nav .menu {
+    background: transparent;
+    position: static;
+    text-align: right;
+    height: 120px;
+  }
+  header .main-nav .menu li {
+    display: inline-block;
+  }
+  header .main-nav .menu li a {
+    font-size: 25px;
+    color: inherit;
+  }
+  header .main-nav .menu li a:hover {
+    color: #33b9da;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .home .quick {
+    padding: 80px 80px;
+  }
+  .home .quick h2 {
+    padding: 0px;
+    font-size: 45px;
+    margin-bottom: 0px;
+  }
+  .home .quick p {
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .home .quick .res-squares {
+    display: inline-block;
+    width: 33%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .home .quick .res-squares h3 {
+    font-size: 30px;
+  }
+  .home .quick .res-squares p {
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .home .quick .portfolio-squares {
+    display: inline-block;
+    width: 30%;
+    height: 25vw;
+    padding: 0px;
+    margin: 30px 1.5%;
+  }
+  .home .quick .portfolio-squares p {
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .home .quick .portfolio-squares .ps-tagline {
+    top: 22%;
+  }
+  .home .quick .portfolio-squares .ps-mainline {
+    top: 35%;
+  }
+  .home .quick .portfolio-squares .ps-tag-2 {
+    top: 75%;
+    font-size: 15px;
+    font-style: italic;
+  }
+  .home .quick .portfolio-squares a {
+    top: 55%;
+    left: 23%;
+    width: 40%;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
 }
